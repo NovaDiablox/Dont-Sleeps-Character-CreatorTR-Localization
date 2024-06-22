@@ -408,4 +408,3 @@ hook.Add("Think", "OpenMyMenuKeyListener", function()
         wasKeyDown = false
     end
 end)
-
