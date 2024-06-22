@@ -48,6 +48,8 @@ local function UpdateLanguage(language)
         currentLanguage = russianTexts
     elseif language == "English" then
         currentLanguage = englishTexts
+    elseif language == "Turkish" then
+        currentLanguage = turkishTexts
     end
 end
 
