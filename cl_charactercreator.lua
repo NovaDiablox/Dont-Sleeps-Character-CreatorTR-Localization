@@ -19,7 +19,7 @@ local turkishTexts = {
     menuTitle = "Karakter Oluşturma",
     nameLabel = "Karakter İsmi:",
     appearanceLabel = "Görünüş:",
-    characterLabel = "Karakter:",
+    characterLabel = "Kişilik:",
     bioLabel = "Biyografi:",
     saveButtonText = "Kaydet",
     KeyEdit = "Bu menüyü açmak için düğme seçin:",
@@ -51,7 +51,7 @@ local function UpdateLanguage(language)
         currentLanguage = russianTexts
     elseif language == "English" then
         currentLanguage = englishTexts
-    elseif language == "Turkish" then
+    elseif language == "Türkçe" then
         currentLanguage = turkishTexts  
     end
 end
