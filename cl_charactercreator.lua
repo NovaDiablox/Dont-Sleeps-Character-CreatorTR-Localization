@@ -51,6 +51,8 @@ local function UpdateLanguage(language)
         currentLanguage = russianTexts
     elseif language == "English" then
         currentLanguage = englishTexts
+    elseif language == "Turkish" then
+        currentLanguage = turkishTexts  
     end
 end
 
@@ -306,6 +308,7 @@ languageComboBox:Dock(TOP)
 languageComboBox:SetValue(currentLanguage.Lang)
 languageComboBox:AddChoice("Русский")
 languageComboBox:AddChoice("English")
+languageComboBox:AddChoice("Turkish")
 languageComboBox.OnSelect = function(panel, index, value)
     UpdateLanguage(value)
     frame:SetTitle(currentLanguage.menuTitle)
