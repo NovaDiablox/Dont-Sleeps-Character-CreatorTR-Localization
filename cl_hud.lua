@@ -23,7 +23,7 @@ local turkishTexts = {
 	injured = "Yaralı",
 	heavily_injured = "Ağır Yaralı",
 	critically_injured = "Ölümün Eşiğinde",
-	additional = "F3 - Daha Fazla Bilgi"
+	additional = "F3 - Daha Fazla Bilgi",
 }
 
 local englishTexts = {
